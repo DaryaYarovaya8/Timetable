@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://static-sl.insales.ru/images/products/1/6158/403544078/%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE_%D1%81%D0%B5%D1%80%D1%8B%D0%B9_%D0%BF%D0%BE%D1%87%D1%82%D0%B8_%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_%D0%BE%D1%84-32.jpg);
+}
+.wrapper{
+    display: flexbox;
+    flex-direction: column;
+}
+header{
+    height: 250px;
+    background-color: rgb(133, 133, 133);
+}
+footer{
+    height: 75px;
+    background-color: rgb(133, 133, 133);
+}
+.upper{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;;
+}
+.menu ul li a{
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.mainup{
+    display: flex;
+}
+.line, .line2{
+    height: 50px;
+    background: url(https://kartinkin.net/uploads/posts/2021-07/1626996198_25-kartinkin-com-p-krasnii-fon-pryamougolnii-krasivo-33.jpg);
+}
+.line{
+    width: 50%;
+}
+.line2{
+    width:50%
+}
+.groupname{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 200px;
+    text-align: center;
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:40px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4vD7KC4865tCY68By-LLlHZwLPV7fLlOYeA&usqp=CAU)
+}
+.main div{
+    border: 10px solid;
+}
+.timetable{
+    width: 1200px;
+}
+.timetable div{
+    display: flex;
+}
+.timetable div div{
+    height: 60px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 1px solid;
+    text-align: center;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+   align-items: center;
+}
+.down ul li{
+    list-style: none;
+}
+.down a{
+    justify-content: space-between;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.down a:hover{
+    text-decoration: underline;
+}
+.down div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fm2{
+    font-size: 16px;
+}
